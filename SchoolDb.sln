@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SchoolDbWeb.API", "SchoolDbWeb.API\SchoolDbWeb.API.csproj", "{E5C85E40-7602-41A7-92A9-E617660AF699}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E5C85E40-7602-41A7-92A9-E617660AF699}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5C85E40-7602-41A7-92A9-E617660AF699}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5C85E40-7602-41A7-92A9-E617660AF699}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5C85E40-7602-41A7-92A9-E617660AF699}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6CC0F81-85EA-4E9A-9632-B2D074BDF0BA}
+	EndGlobalSection
+EndGlobal
