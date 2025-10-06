@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\viashramo\\API\u0027s\\SchoolDb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|d:\\viashramo\\api\u0027s\\schooldb\\schooldbweb.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|solutionrelative:schooldbweb.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|d:\\viashramo\\api\u0027s\\schooldb\\schooldbweb.api\\viewmodels\\enriollmentsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|solutionrelative:schooldbweb.api\\viewmodels\\enriollmentsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|d:\\viashramo\\api\u0027s\\schooldb\\schooldbweb.api\\models\\enrollment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,6 +13,18 @@
     {
       "AbsoluteMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|d:\\viashramo\\api\u0027s\\schooldb\\schooldbweb.api\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|solutionrelative:schooldbweb.api\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|d:\\viashramo\\api\u0027s\\schooldb\\schooldbweb.api\\viewmodels\\coursesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|solutionrelative:schooldbweb.api\\viewmodels\\coursesvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|d:\\viashramo\\api\u0027s\\schooldb\\schooldbweb.api\\viewmodels\\studentsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|solutionrelative:schooldbweb.api\\viewmodels\\studentsvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|d:\\viashramo\\api\u0027s\\schooldb\\schooldbweb.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E5C85E40-7602-41A7-92A9-E617660AF699}|SchoolDbWeb.API\\SchoolDbWeb.API.csproj|solutionrelative:schooldbweb.api\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,15 +39,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "EnriollmentsVM.cs",
+              "DocumentMoniker": "D:\\viashramo\\API\u0027s\\SchoolDb\\SchoolDbWeb.API\\ViewModels\\EnriollmentsVM.cs",
+              "RelativeDocumentMoniker": "SchoolDbWeb.API\\ViewModels\\EnriollmentsVM.cs",
+              "ToolTip": "D:\\viashramo\\API\u0027s\\SchoolDb\\SchoolDbWeb.API\\ViewModels\\EnriollmentsVM.cs",
+              "RelativeToolTip": "SchoolDbWeb.API\\ViewModels\\EnriollmentsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:49:43.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CoursesVM.cs",
+              "DocumentMoniker": "D:\\viashramo\\API\u0027s\\SchoolDb\\SchoolDbWeb.API\\ViewModels\\CoursesVM.cs",
+              "RelativeDocumentMoniker": "SchoolDbWeb.API\\ViewModels\\CoursesVM.cs",
+              "ToolTip": "D:\\viashramo\\API\u0027s\\SchoolDb\\SchoolDbWeb.API\\ViewModels\\CoursesVM.cs",
+              "RelativeToolTip": "SchoolDbWeb.API\\ViewModels\\CoursesVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:49:01.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StudentsVM.cs",
+              "DocumentMoniker": "D:\\viashramo\\API\u0027s\\SchoolDb\\SchoolDbWeb.API\\ViewModels\\StudentsVM.cs",
+              "RelativeDocumentMoniker": "SchoolDbWeb.API\\ViewModels\\StudentsVM.cs",
+              "ToolTip": "D:\\viashramo\\API\u0027s\\SchoolDb\\SchoolDbWeb.API\\ViewModels\\StudentsVM.cs",
+              "RelativeToolTip": "SchoolDbWeb.API\\ViewModels\\StudentsVM.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T09:42:11.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "studentsController.cs",
               "DocumentMoniker": "D:\\viashramo\\API\u0027s\\SchoolDb\\SchoolDbWeb.API\\Controllers\\studentsController.cs",
               "RelativeDocumentMoniker": "SchoolDbWeb.API\\Controllers\\studentsController.cs",
               "ToolTip": "D:\\viashramo\\API\u0027s\\SchoolDb\\SchoolDbWeb.API\\Controllers\\studentsController.cs",
               "RelativeToolTip": "SchoolDbWeb.API\\Controllers\\studentsController.cs",
-              "ViewState": "AgIAAL0AAAAAAAAAAAAiwMYAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAACcBAAAAAAAAAAAawDcBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T12:09:41.859Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-03T12:09:41.859Z"
             },
             {
               "$type": "Document",
@@ -45,9 +95,10 @@
               "RelativeDocumentMoniker": "SchoolDbWeb.API\\Models\\Enrollment.cs",
               "ToolTip": "D:\\viashramo\\API\u0027s\\SchoolDb\\SchoolDbWeb.API\\Models\\Enrollment.cs",
               "RelativeToolTip": "SchoolDbWeb.API\\Models\\Enrollment.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAxwA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-03T14:40:38.835Z"
+              "WhenOpened": "2025-10-03T14:40:38.835Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -57,9 +108,10 @@
               "RelativeDocumentMoniker": "SchoolDbWeb.API\\Models\\Student.cs",
               "ToolTip": "D:\\viashramo\\API\u0027s\\SchoolDb\\SchoolDbWeb.API\\Models\\Student.cs",
               "RelativeToolTip": "SchoolDbWeb.API\\Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-04T03:45:38.813Z"
+              "WhenOpened": "2025-10-04T03:45:38.813Z",
+              "EditorCaption": ""
             }
           ]
         }

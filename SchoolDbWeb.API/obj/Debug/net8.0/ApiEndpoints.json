@@ -1,6 +1,22 @@
 [
   {
     "ContainingType": "SchoolDbWeb.API.Controllers.studentsController",
+    "Method": "Addaperson",
+    "RelativePath": "api/students/adddetails",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "SchoolDbWeb.API.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolDbWeb.API.Controllers.studentsController",
     "Method": "Enrollment",
     "RelativePath": "api/students/EnrollmentId",
     "HttpMethod": "GET",
@@ -150,7 +166,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "studentId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
       }

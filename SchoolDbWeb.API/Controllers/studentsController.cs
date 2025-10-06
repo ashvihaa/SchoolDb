@@ -289,6 +289,23 @@ namespace SchoolDbWeb.API.Controllers
                     return StatusCode(500, ex.Message);
                 } 
          }
+
+        [HttpPost]
+        [Route("adddetails")]
+
+        public async Task<IActionResult> Addaperson(Student student)
+        {
+            try
+            {
+                _context.Students.Add(student);
+                await _context.SaveChangesAsync();
+                return Ok("student added successfully");
+            }
+            catch (Exception e)
+            {
+                return Ok(e.Message);
+            }
+        }
     }
 
 }
