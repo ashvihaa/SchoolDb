@@ -190,13 +190,13 @@ namespace SchoolDbWeb.API.Controllers
         [HttpGet]
         [Route("studentGrade")]
 
-        public async Task<IActionResult> GetStudentGrades(int studentId)
+        public async Task<IActionResult> GetStudentGrades(int id)
         {
             try
             {
                 var result = await (from s in _context.Students
                                     join e in _context.Enrollments on s.StudentId equals e.StudentId
-                                    where s.StudentId == studentId
+                                    where s.StudentId == id
                                     select new
                                     {
                                         StudentName = s.Name,
@@ -217,14 +217,14 @@ namespace SchoolDbWeb.API.Controllers
         [HttpGet]
         [Route("Title")]
 
-        public async Task<IActionResult> GetStudentCourses(int studentId)
+        public async Task<IActionResult> GetStudentCourses(int id)
         {
             try
             {
                 var result = await (from s in _context.Students
                                     join e in _context.Enrollments on s.StudentId equals e.StudentId
                                     join c in _context.Courses on e.CourseId equals c.CourseId
-                                    where s.StudentId == studentId
+                                    where s.StudentId == id
                                     select new
                                     {
                                         StudentName = s.Name,

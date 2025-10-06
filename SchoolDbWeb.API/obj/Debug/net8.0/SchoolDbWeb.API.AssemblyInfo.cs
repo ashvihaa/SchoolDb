@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SchoolDbWeb.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f46d751f035ae3c86342b0a7aa6d10ba27a046e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5947a5d9c54a0ca434decb4a3681f75c8130623e")]
 [assembly: System.Reflection.AssemblyProductAttribute("SchoolDbWeb.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SchoolDbWeb.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
