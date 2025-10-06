@@ -254,8 +254,8 @@ namespace SchoolDbWeb.API.Controllers
                     {
                         Name = s.Name,
                         Email = s.Email
-                    })
-                    .FirstOrDefaultAsync();
+                    }).FirstOrDefaultAsync();
+
 
                 if (student == null)
                     return NotFound("No student found with ID");
