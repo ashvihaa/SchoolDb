@@ -163,11 +163,13 @@ namespace SchoolDbWeb.API.Controllers
             }
         }
         [HttpGet]
-        [Route("")]
+        [Route("StudentsCredits")]
         public async Task<IActionResult> GetCreditsByStudent(int id)
         {
+            //using Exception handling try and catch
             try
             {
+                //linq statements
                 var credits = await (from e in _context.Enrollments
                                      join c in _context.Courses on e.CourseId equals c.CourseId
                                      where e.StudentId == id
@@ -175,13 +177,94 @@ namespace SchoolDbWeb.API.Controllers
                                     .ToListAsync();
 
                 if (credits == null || credits.Count == 0)
-                    return NotFound($"No enrolled courses found for studentId = {id}");
+                    return NotFound("No enrolled courses found for studentId");
 
                 return Ok(credits); // e.g. [3, 2]
             }
-            catch (Exception ex)
+            catch (Exception e)
             {
-                return StatusCode(500, $"Internal error: {ex.Message}");
+                return Ok(e.Message);
+            }
+        }
+
+        [HttpGet]
+        [Route("studentGrade")]
+
+        public async Task<IActionResult> GetStudentGrades(int studentId)
+        {
+            try
+            {
+                var result = await (from s in _context.Students
+                                    join e in _context.Enrollments on s.StudentId equals e.StudentId
+                                    where s.StudentId == studentId
+                                    select new
+                                    {
+                                        StudentName = s.Name,
+                                        Grade = e.Grade
+                                    }).ToListAsync();
+
+                if (result == null || result.Count == 0)
+                    return NotFound("No grades found for studentId");
+
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                return Ok(e.Message);
+            }
+        }
+
+        [HttpGet]
+        [Route("Title")]
+
+        public async Task<IActionResult> GetStudentCourses(int studentId)
+        {
+            try
+            {
+                var result = await (from s in _context.Students
+                                    join e in _context.Enrollments on s.StudentId equals e.StudentId
+                                    join c in _context.Courses on e.CourseId equals c.CourseId
+                                    where s.StudentId == studentId
+                                    select new
+                                    {
+                                        StudentName = s.Name,
+                                        CourseTitle = c.Title
+                                    }).ToListAsync();
+
+                if (result == null || result.Count == 0)
+                    return NotFound("No courses found for studentId");
+
+                return Ok(result);
+            }
+            catch (Exception e)
+            {
+                return Ok(e.Message);
+            }
+        }
+
+        [HttpGet]
+        [Route("StudentEmail")]
+        public async Task<IActionResult> GetStudentInfo(int studentId)
+        {
+            try
+            {
+                var student = await _context.Students
+                    .Where(s => s.StudentId == studentId)
+                    .Select(s => new
+                    {
+                        Name = s.Name,
+                        Email = s.Email
+                    })
+                    .FirstOrDefaultAsync();
+
+                if (student == null)
+                    return NotFound("No student found with ID");
+
+                return Ok(student);
+            }
+            catch (Exception e)
+            {
+                return Ok(e.Message);
             }
         }
     }

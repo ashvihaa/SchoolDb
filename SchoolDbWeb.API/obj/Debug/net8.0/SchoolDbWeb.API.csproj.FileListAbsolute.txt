@@ -169,3 +169,4 @@ D:\viashramo\API's\SchoolDb\SchoolDbWeb.API\obj\Debug\net8.0\refint\SchoolDbWeb.
 D:\viashramo\API's\SchoolDb\SchoolDbWeb.API\obj\Debug\net8.0\SchoolDbWeb.API.pdb
 D:\viashramo\API's\SchoolDb\SchoolDbWeb.API\obj\Debug\net8.0\SchoolDbWeb.API.genruntimeconfig.cache
 D:\viashramo\API's\SchoolDb\SchoolDbWeb.API\obj\Debug\net8.0\ref\SchoolDbWeb.API.dll
+D:\viashramo\API's\SchoolDb\SchoolDbWeb.API\obj\Debug\net8.0\SchoolDbWeb.API.sourcelink.json
