@@ -111,6 +111,22 @@
   },
   {
     "ContainingType": "SchoolDbWeb.API.Controllers.studentsController",
+    "Method": "GetStudentName",
+    "RelativePath": "api/students/GetStudentName",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SchoolDbWeb.API.Controllers.studentsController",
     "Method": "GetStudentInfo",
     "RelativePath": "api/students/StudentEmail",
     "HttpMethod": "GET",
@@ -118,7 +134,7 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "studentId",
+        "Name": "id",
         "Type": "System.Int32",
         "IsRequired": false
       }

@@ -244,12 +244,12 @@ namespace SchoolDbWeb.API.Controllers
 
         [HttpGet]
         [Route("StudentEmail")]
-        public async Task<IActionResult> GetStudentInfo(int studentId)
+        public async Task<IActionResult> GetStudentInfo(int id)
         {
             try
             {
                 var student = await _context.Students
-                    .Where(s => s.StudentId == studentId)
+                    .Where(s => s.StudentId == id)
                     .Select(s => new
                     {
                         Name = s.Name,
@@ -267,5 +267,28 @@ namespace SchoolDbWeb.API.Controllers
                 return Ok(e.Message);
             }
         }
+
+         [HttpGet]
+         [Route("GetStudentName")]
+         public async Task<IActionResult> GetStudentName(int id)
+         {
+                try
+                {
+                    var studentName = await _context.Students
+                                                    .Where(s => s.StudentId == id)
+                                                    .Select(s => s.Name)
+                                                    .FirstOrDefaultAsync();
+
+                    if (studentName == null)
+                        return NotFound("Student not found");
+
+                    return Ok(studentName);
+                }
+                catch (Exception ex)
+                {
+                    return StatusCode(500, ex.Message);
+                } 
+         }
     }
+
 }
